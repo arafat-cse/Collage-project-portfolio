@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    position: absolute;
+    position:fixed;
+}
+.contact{
+    
+    background-color: rgb(163, 184, 202);
+}
+.main_menu{
+    border: 1px; 
+}
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
