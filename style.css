@@ -2,17 +2,12 @@
     padding: 0;
     margin: 0;
 }
-.header{
-    position: absolute;
-    position:fixed;
-}
+
 .contact{
     
     background-color: rgb(163, 184, 202);
 }
-.main_menu{
-    border: 1px; 
-}
+
 
 .carousel .carousel-item {
     height: 500px;
