@@ -6,6 +6,26 @@
     width: 100%;
     margin: auto;
 }
+.slider{
+    height: 570px;
+}
+.new_slider{
+    height: 1000px;
+}
+.main_about{
+    border: 1px;
+    
+}
+.about{
+    border: 3px;
+    
+
+}
+.about:hover{
+    border: 1px solid green;
+    color: black;
+    
+}
 
 .contact{
     
@@ -16,7 +36,7 @@
 
 
 .carousel .carousel-item {
-    height: 500px;
+    height: 400px;
   }
   
   .carousel-item img {

@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>potfolio</title>
+    <title>portfolio</title>
+    <link rel="shortcut icon" href="image/icon_fav.png" type="image/x-icon"> 
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="assa/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assa/css/all.min.css">
-    <link rel="stylesheet" href="assa/css/fontawesome.min.css">
+    <!-- <link rel="stylesheet" href="assa/css/all.min.css">
+    <link rel="stylesheet" href="assa/css/fontawesome.min.css"> -->
     
     <link rel="stylesheet" href="style.css">
   
@@ -55,16 +59,17 @@
           </div>
         </div>
       </nav>
-      <!-- this is a end -->
+      <!-- this is navbar end -->
+      <br><br>
       <!-- this is a slider start-->
       <div class="slider">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleCaptions" class="carousel slide new_slider" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-inner">
+          <div class="carousel-inner new_slider">
             <div class="carousel-item active">
               <img src="image/mani-slider.jpg" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block">
@@ -100,8 +105,8 @@
       </div>
        <!-- this is a slider end-->
       <div class="row contact">
-        <div class="col-md-8 text-center "><h1><a class="text-decoration-none" href="#">About Me </a></h1></div>
-        <div class="col-md-4 text-center"><h1><a class="text-decoration-none" href="#">Contact</a></h1></div>  
+        <div class="col-md-8 text-center main_about"><h1><a class="text-decoration-none about" href="#">About Me </a></h1></div>
+        <div class="col-md-4 text-center main_about"><h1><a class="text-decoration-none about" href="#">Contact</a></h1></div>  
       </div>   
        
       <div class="contact">
@@ -285,8 +290,10 @@
                     <section class="mb-4">
                       <!-- Facebook -->
                       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-                        ><i class="fab fa-facebook-f"></i
-                      ></a>
+                        >
+                        <i class="fa-brands fa-facebook"></i>
+                      
+                    </a>
 
                       <!-- Twitter -->
                       <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
